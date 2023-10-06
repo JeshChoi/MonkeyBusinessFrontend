@@ -1,0 +1,10 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+.multiline-ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4; /* Adjust based on how many lines you want to display */
+  overflow: hidden;
+}
